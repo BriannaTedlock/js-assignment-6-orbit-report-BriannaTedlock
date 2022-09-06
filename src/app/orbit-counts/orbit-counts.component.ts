@@ -21,11 +21,8 @@ export class OrbitCountsComponent implements OnInit {
 	  for (let i = 0; i < this.satellites.length; i++) {
 		 if (this.satellites[i].type === type) {
 			count++;
-		 }
-	  }
-	}
+		 }}
 	return count;
  }
 
-
-}
+}}
